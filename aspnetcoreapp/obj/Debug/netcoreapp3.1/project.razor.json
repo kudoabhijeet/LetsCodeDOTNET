@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Dell\\Desktop\\Git\\aspnetcoreapp\\aspnetcoreapp.csproj",
+  "FilePath": "d:\\LetsCodeDOTNET\\aspnetcoreapp\\aspnetcoreapp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20521,38 +20521,38 @@
   "RootNamespace": "aspnetcoreapp",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Dell\\Desktop\\Git\\aspnetcoreapp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Dell\\Desktop\\Git\\aspnetcoreapp\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Dell\\Desktop\\Git\\aspnetcoreapp\\Pages\\_ViewStart.cshtml",
+      "FilePath": "d:\\LetsCodeDOTNET\\aspnetcoreapp\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Dell\\Desktop\\Git\\aspnetcoreapp\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "d:\\LetsCodeDOTNET\\aspnetcoreapp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Dell\\Desktop\\Git\\aspnetcoreapp\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Dell\\Desktop\\Git\\aspnetcoreapp\\Pages\\Error.cshtml",
+      "FilePath": "d:\\LetsCodeDOTNET\\aspnetcoreapp\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Dell\\Desktop\\Git\\aspnetcoreapp\\Pages\\Privacy.cshtml",
+      "FilePath": "d:\\LetsCodeDOTNET\\aspnetcoreapp\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\LetsCodeDOTNET\\aspnetcoreapp\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\LetsCodeDOTNET\\aspnetcoreapp\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\LetsCodeDOTNET\\aspnetcoreapp\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],
