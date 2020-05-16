@@ -20554,6 +20554,11 @@
       "FilePath": "d:\\LetsCodeDOTNET\\WebApplication\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\LetsCodeDOTNET\\WebApplication\\Pages\\Register.cshtml",
+      "TargetPath": "Pages\\Register.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
