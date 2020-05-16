@@ -28,5 +28,5 @@ To install additional .NET Core runtimes or SDKs:</br>
   [https://aka.ms/dotnet-download]
  </br> 
  
- ![Here are some of the screenshots for you to view:](https://github.com/kudoabhijeet/LetsCodeDOTNET/issues/12)
+ ![Here are some of the screenshots for you to view:](https://github.com/kudoabhijeet/LetsCodeDOTNET/issues/13)
   
