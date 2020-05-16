@@ -8,13 +8,12 @@ We're working on</br>
  Commit:    b1768b4ae7</br>
  RID:         win10-x64</br>
 </br>
-</br>
 
 Host (useful for support):</br>
   Version: 3.1.3</br>
   Commit:  4a9f85e9f8</br>
   </br>
-  </br>
+ 
 .NET Core SDKs installed:</br>
   3.1.201 </br>
 </br>
@@ -24,6 +23,10 @@ Host (useful for support):</br>
   Microsoft.NETCore.App 3.1.3 </br>
   Microsoft.WindowsDesktop.App 3.1.3</br> 
 </br> 
-</br>
+
 To install additional .NET Core runtimes or SDKs:</br>
   [https://aka.ms/dotnet-download]
+ </br> 
+ 
+ ![Here are some of the screenshots for you to view:](https://github.com/kudoabhijeet/LetsCodeDOTNET/issues/13)
+  
