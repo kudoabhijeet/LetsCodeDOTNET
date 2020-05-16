@@ -17,8 +17,9 @@ namespace WebApplication.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public void OnPost()
         {
+            
         }
     }
 }
