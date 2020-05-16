@@ -19,7 +19,7 @@ namespace WebApplication.Pages
 
         public void OnPost()
         {
-            
+         var name = Request.Form["fullname"];   
         }
     }
 }
