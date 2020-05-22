@@ -19,6 +19,8 @@ namespace WebApplication.Pages
 
         public void OnPost()
         {
+            var email = Request.Form["email"];
+            var password = Request.Form["password"];
             
         }
     }
