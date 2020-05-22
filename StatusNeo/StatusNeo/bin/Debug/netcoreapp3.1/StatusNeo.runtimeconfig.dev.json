@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\KudoAbhijeet\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\KudoAbhijeet\\.nuget\\packages"
+    ]
+  }
+}
