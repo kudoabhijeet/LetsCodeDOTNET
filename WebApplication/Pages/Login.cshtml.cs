@@ -17,8 +17,11 @@ namespace WebApplication.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public void OnPost()
         {
+            var email = Request.Form["email"];
+            var password = Request.Form["password"];
+            
         }
     }
 }
