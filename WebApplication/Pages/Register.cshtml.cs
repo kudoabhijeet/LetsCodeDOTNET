@@ -12,7 +12,7 @@ namespace WebApplication.Pages
     {
         private readonly ILogger<RegisterModel> _logger;
 
-        public RegisterModel(ILogger<RegisterModel> logger)
+        public RegisterModel(ILogger<RegisterModel> logger) 
         {
             _logger = logger;
         }
@@ -20,6 +20,7 @@ namespace WebApplication.Pages
         public void OnPost()
         {
          var name = Request.Form["fullname"];   
+         
         }
     }
 }
