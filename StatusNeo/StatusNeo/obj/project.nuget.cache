@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RPxNQGYHAaI30Sqboy1Eg+BXugqS70wrIGGEb/TsNQPW7gmWryCZn44LrN9+nnQC+RwjE9YrjagRTpTLe7ovBA==",
+  "success": true,
+  "projectFilePath": "D:\\LetsCodeDOTNET\\StatusNeo\\StatusNeo\\StatusNeo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KudoAbhijeet\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512"
+  ],
+  "logs": []
+}
