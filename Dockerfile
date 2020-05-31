@@ -12,7 +12,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
 WORKDIR /aspnetcoreapp
 
 # Copy csproj and restore as distinct layers
-COPY *.csproj ./
+COPY aspnetcoreapp/*.csproj ./
 RUN ["dotnet", "restore"]
 RUN ["dotnet","build"]
 # Copy everything else and build
