@@ -14,6 +14,6 @@ WORKDIR /aspnetcoreapp
 # Copy csproj and restore as distinct layers
 COPY *.csproj ./
 RUN ["dotnet", "restore"]
-RUN ["Ddotnet","build"]
+RUN ["dotnet","build"]
 # Copy everything else and build
 ENTRYPOINT ["dotnet", "aspnetcoreapp.dll"]
