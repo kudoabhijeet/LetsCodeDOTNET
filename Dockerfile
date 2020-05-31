@@ -9,11 +9,13 @@
 # ENTRYPOINT ["dotnet", "run", "--server.urls", "http://0.0.0:5000]
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
-WORKDIR /aspnetcoreapp
+WORKDIR /app
 
-# Copy csproj and restore as distinct layers
+
 COPY aspnetcoreapp/*.csproj ./
 RUN ["dotnet", "restore"]
+COPY aspnetcoreapp/. ./
+WORKDIR /app
 RUN ["dotnet","build"]
-# Copy everything else and build
-ENTRYPOINT ["dotnet", "aspnetcoreapp.dll"]
+EXPOSE 5000/tcp
+ENTRYPOINT ["dotnet", "run", "--server.urls", "http://0.0.0:5000]
