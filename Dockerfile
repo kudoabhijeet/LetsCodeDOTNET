@@ -1,21 +1,16 @@
-# FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
-
-# # Copy csproj and restore as distinct layers
-# COPY . /aspnetcoreapp
-# WORKDIR /aspnetcoreapp
-# RUN ["dotnet", "restore"]
-# RUN ["dotnet", "build"]
-# EXPOSE 5000/tcp
-# ENTRYPOINT ["dotnet", "run", "--server.urls", "http://0.0.0:5000]
-
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
 WORKDIR /app
 
-
-COPY aspnetcoreapp/*.csproj ./
+# Copy csproj and restore as distinct layers
+COPY WebApplication/*.csproj ./
 RUN ["dotnet", "restore"]
-COPY aspnetcoreapp/. ./
+
+# Copy everything else and build
+COPY WebApplication/. ./
+RUN ["dotnet", "publish", "-c", "Release", "-o", "out"]
+
+# Build runtime image
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app
-RUN ["dotnet","build"]
-EXPOSE 5000/tcp
-ENTRYPOINT ["dotnet", "run", "--server.urls", "http://0.0.0:5000]
+COPY --from=build-env /app/out .
+ENTRYPOINT ["dotnet", "WebApplication.dll"]  
